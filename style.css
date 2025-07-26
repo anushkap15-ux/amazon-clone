@@ -299,6 +299,7 @@ span{
   height: 160px;
    color: rgb(255,255,255,0.7);
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   flex: 0 0 20%;
   padding: 20px;
@@ -327,15 +328,18 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     
 }
 .last-footer a{
     color: rgb(255,255,255,0.7);
     text-decoration: none;
+    font-size: 14px;
 }
 .last-footer a:hover{
     text-decoration: underline;
 }
 .last-footer p{
     color:  rgb(255,255,255,0.7);
+    font-size: 14px;
 }
