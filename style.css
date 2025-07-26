@@ -143,3 +143,40 @@ span{
 .hero-msg a {
     color: #007185;
 }
+/** shop-section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.box-content{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.box-content p {
+    color: #007189 ;
+    
+}
+.box:hover{
+    background-color: aliceblue;
+
+}
+.box-content p:hover{
+    text-decoration: underline;
+}
