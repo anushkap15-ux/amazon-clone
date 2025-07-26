@@ -119,6 +119,22 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+.panel2{
+    height:33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.panel2 a {
+    margin-left:10px ;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+.panel2 a:hover{
+    text-decoration: underline;
+    color: #007189;
+}
 /** hero section**/
 .hero-section{
   height: 400px;
@@ -179,4 +195,20 @@ span{
 }
 .box-content p:hover{
     text-decoration: underline;
+}
+.back-to-top{
+   background-color: #222f3d;
+   height: 49px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.back-to-top p{
+    color: white;
+    pointer-events: none;
+}
+.back-to-top:hover{
+    background-color: #222f3d;
+    opacity: 0.9;
+    
 }
