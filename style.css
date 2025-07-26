@@ -300,8 +300,8 @@ span{
    color: rgb(255,255,255,0.7);
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  
+  flex: 0 0 20%;
+  padding: 20px;
   font-size: 13px;
 
 
@@ -309,8 +309,33 @@ span{
 .table-footer{
     color: rgb(255,255,255,0.7);
     margin-left: 40px;
+    width: 200px;
+    font-size: 14px;
 }
 .nav-footer-descline ul{
     list-style:none;
 }
+.to-adjust{
+    list-style: none;
+    display: flex;
 
+}
+.last-footer{
+    height: 76px;
+    background-color:#131A22 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.last-footer a{
+    color: rgb(255,255,255,0.7);
+    text-decoration: none;
+}
+.last-footer a:hover{
+    text-decoration: underline;
+}
+.last-footer p{
+    color:  rgb(255,255,255,0.7);
+}
